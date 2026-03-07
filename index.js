@@ -1,9 +1,8 @@
-let name = "bob"; 
-let age = 24; 
+console.log('1' == 1); 
+console.log(1 == true); 
+console.log("false" == false); 
+console.log("false" == true); 
 
-console.log(typeof(name));
-console.log(typeof(age)); 
-
-console.log(`Hello my name is ${name}, I am ${age} years old`); 
-
-console.log(`I was bron in ${2026 - age}`);
+if("false"){
+  console.log("Hello false!");
+}
