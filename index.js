@@ -1,4 +1,9 @@
-let radius = 7; 
-const pi = 3.14; 
+let name = "bob"; 
+let age = 24; 
 
-let area = radius * pi; 
+console.log(typeof(name));
+console.log(typeof(age)); 
+
+console.log(`Hello my name is ${name}, I am ${age} years old`); 
+
+console.log(`I was bron in ${2026 - age}`);
