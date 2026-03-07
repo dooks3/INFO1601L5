@@ -1,25 +1,11 @@
-console.log('1' === 1); 
-console.log(1 === true); 
-console.log("true" === true);
-
-
-let grade = 67; 
-
-// Conditional Statements
-if(grade < 50){
-  console.log('Failed');
-}else{
-  console.log('Passed'); 
-}
-
-// while loop
-let num = 0; 
-while(num < 10){
-  console.log(num); 
-  num++;
-}
-
-// for loop
-for(let i = 0; i < 10; i++){
-  console.log(i);
+for(let i = 1; i <= 50; i++){
+  if(i % 3 === 0 && i%5 === 0){
+    console.log("fizzbuzz");
+  } else if( i%3===0){
+    console.log('fizz');
+  } else if(i %5===0){
+    console.log('buzz')
+  } else{
+    console.log(i);
+  }
 }
