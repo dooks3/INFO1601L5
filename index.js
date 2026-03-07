@@ -1,11 +1,16 @@
-for(let i = 1; i <= 50; i++){
-  if(i % 3 === 0 && i%5 === 0){
-    console.log("fizzbuzz");
-  } else if( i%3===0){
-    console.log('fizz');
-  } else if(i %5===0){
-    console.log('buzz')
-  } else{
-    console.log(i);
-  }
+function happyPrint(string){
+  console.log("😀: "+string);
 }
+
+function sadPrint(string){
+  console.log("😢: "+string);
+}
+
+
+function add(a, b, callback){
+  let ans = a + b; 
+  callback(ans);
+}
+
+add(5,10,happyPrint); 
+add(11,12,sadPrint); 
